@@ -1,0 +1,147 @@
+.converter-container {
+  display: flex;
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #2c3e50;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #ecf0f1;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+.navbar-heading {
+  font-size: 30px;
+}
+
+
+.unit-selection,
+.conversion-section,
+.input-section,
+.result-display,
+.history-section {
+  margin: 15px 0;
+}
+
+.unit-selection label {
+  margin-right: 10px; /* Add space between label and dropdown */
+  color: #ecf0f1;
+}
+
+.unit-type-select,
+.unit-select {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-display {
+  background-color: #34495e;
+  font-size: 28px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.number-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+.number-btn,
+.convert-btn,
+.clear-btn,
+.backspace-btn,
+.symbol-btn,
+.delete-btn,
+.action-btn{
+  border: none;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.save-btn,
+.delete-btn{
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.number-btn,
+.symbol-btn{
+  background-color: #1abc9c;
+  color: white;
+}
+.convert-btn,
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+.clear-btn,
+.delete-btn{
+  background-color: rgb(219, 45, 45);
+  color: white;
+}
+.action-btn{
+  background-color: darkcyan;
+  color: white;
+}
+.backspace-btn{
+  background-color:#4e4b4b;
+  color: white;
+}
+.backspace-btn:hover{
+  background-color:#353232;
+}
+
+.number-btn:hover,
+.clear-btn:hover,
+.symbol-btn:hover {
+  background-color: #16a085; /* Darker shade on hover */
+}
+
+.convert-btn:hover{
+  background-color: #079929;
+}
+
+
+.wide {
+  grid-column: span 2; /* Make the Clear button wider */
+}
+
+.result-display {
+  margin-top: 20px;
+  font-size: 24px;
+  background-color: #34495e;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ecf0f1;
+}
